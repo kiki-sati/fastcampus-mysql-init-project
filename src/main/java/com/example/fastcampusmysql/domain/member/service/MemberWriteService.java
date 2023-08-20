@@ -15,7 +15,7 @@ public class MemberWriteService {
 	private final MemberRepository memberRepository;
 
 	// 초기부터 reade와 write를 구분해서 작업하기 -> 나중에 가면 서로 기능이 달라진다.
-	public Member create(RegisterMemberCommand command) {
+	public Member register(RegisterMemberCommand command) {
 /*
    목표 - 회원정보(이메일,닉네임, 생년월일)을 등록한다.
    	    - 닉네임은 10자를 넘길 수 없다.
