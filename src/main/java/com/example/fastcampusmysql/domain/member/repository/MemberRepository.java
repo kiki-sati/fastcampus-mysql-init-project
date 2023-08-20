@@ -6,11 +6,8 @@ import java.time.LocalDateTime;
 import java.util.Optional;
 
 import org.springframework.jdbc.core.RowMapper;
-import org.springframework.jdbc.core.namedparam.BeanPropertySqlParameterSource;
 import org.springframework.jdbc.core.namedparam.MapSqlParameterSource;
 import org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate;
-import org.springframework.jdbc.core.namedparam.SqlParameterSource;
-import org.springframework.jdbc.core.simple.SimpleJdbcInsert;
 import org.springframework.stereotype.Repository;
 
 import com.example.fastcampusmysql.domain.member.entity.Member;
@@ -49,4 +46,8 @@ public class MemberRepository {
 		 * member의 id를 보고 갱신 또는 삽입을 정함.
 		 * 반환값은 id를 담아서 반환한다.
 		 */
-현
+
+		return null;
+	}
+
+}
